@@ -593,6 +593,11 @@ video {
   margin-right: 1rem;
 }
 
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -606,11 +611,6 @@ video {
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
-}
-
-.mx-6 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
 }
 
 .ml-4 {
@@ -653,8 +653,8 @@ video {
   height: 100%;
 }
 
-.w-10 {
-  width: 2.5rem;
+.w-12 {
+  width: 3rem;
 }
 
 .w-16 {
@@ -675,10 +675,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-12 {
-  width: 3rem;
 }
 
 .max-w-7xl {
@@ -799,24 +795,19 @@ video {
   font-family: poppins;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {
@@ -875,12 +866,6 @@ video {
     margin-top: 4rem;
   }
 
-  @media (min-width: 1024px) {
-    .lg\:lg\:mt-16 {
-      margin-top: 4rem;
-    }
-  }
-
   .lg\:block {
     display: block;
   }
@@ -897,16 +882,16 @@ video {
     height: 2rem;
   }
 
-  .lg\:w-6\/12 {
-    width: 50%;
+  .lg\:w-10 {
+    width: 2.5rem;
   }
 
   .lg\:w-16 {
     width: 4rem;
   }
 
-  .lg\:w-10 {
-    width: 2.5rem;
+  .lg\:w-6\/12 {
+    width: 50%;
   }
 
   .lg\:text-4xl {
